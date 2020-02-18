@@ -32,6 +32,6 @@ export default function ajax(url, data={}, type='GET'){
             message.error('Request error: ' + error.message)
         })
     })
-    
+
 }
 
